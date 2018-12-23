@@ -6,8 +6,5 @@ class Person {
   introduce() {
     return ('My name is ' + this.name + '. I am ' + this.age + ' years old.');
   }
-  basic_introduce() {
-    return this.introduce();
-  }
 }
 export {Person};
